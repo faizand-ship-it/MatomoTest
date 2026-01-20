@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Temp Analytics Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://YOUR-MATOMO-DOMAIN/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', 'YOUR_SITE_ID']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  
+</head>
+
+<body>
+  <h1>Temporary Website</h1>
+  <p>This site is used for analytics testing with Matomo.</p>
+
+  <a href="#test">Test Link Click</a>
+</body>
+</html>
+
